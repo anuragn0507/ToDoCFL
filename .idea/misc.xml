@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/ToDoCFL/app/src/main/res/drawable/circular_button.xml" value="0.1" />
         <entry key="..\:/Users/yadav/AndroidStudioProjects/ToDoCFL/app/src/main/res/drawable/custom_edittetext.xml" value="0.187" />
+        <entry key="..\:/Users/yadav/AndroidStudioProjects/ToDoCFL/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/yadav/AndroidStudioProjects/ToDoCFL/app/src/main/res/layout/activity_create_card.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/yadav/AndroidStudioProjects/ToDoCFL/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/yadav/AndroidStudioProjects/ToDoCFL/app/src/main/res/layout/activity_splash_screen.xml" value="0.23645833333333333" />
@@ -12,7 +14,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_16_PREVIEW" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
