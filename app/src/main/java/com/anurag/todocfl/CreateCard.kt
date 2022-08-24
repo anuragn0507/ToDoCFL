@@ -35,9 +35,9 @@ class CreateCard :AppCompatActivity() {
                 GlobalScope.launch {
                     database.dao().insertTask(Entity(0,title,priority))
                 }
-                GlobalScope.launch {
-                   Log.i("Anurag",database.dao().getTasks().toString())
-                }
+//                GlobalScope.launch {
+//                   Log.i("Anurag",database.dao().getTasks().toString())
+//                }
                 val intent = Intent(this,MainActivity::class.java)
                 startActivity(intent)
             }

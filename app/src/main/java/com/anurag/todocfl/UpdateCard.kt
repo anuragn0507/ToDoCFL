@@ -33,7 +33,7 @@ class UpdateCard : AppCompatActivity() {
                 GlobalScope.launch {
                     database.dao().deleteTask(
                         Entity(
-                            0,
+                            pos+1,
                             create_title.text.toString(),
                             create_priority.text.toString()
                         )
@@ -58,7 +58,7 @@ class UpdateCard : AppCompatActivity() {
                     )
                 }
 
-                Toast.makeText(this, title + " " + priority, Toast.LENGTH_LONG).show()
+//                Toast.makeText(this, title + " " + priority, Toast.LENGTH_LONG).show()
                 myIntent()
             }
         }
